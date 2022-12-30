@@ -2,7 +2,6 @@ package com.domain.controllers;
 
 import javax.validation.Valid;
 
-import org.apache.catalina.connector.Response;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.domain.dto.CategoryData;
 import com.domain.dto.ResponseData;
-import com.domain.dto.SupplierData;
 import com.domain.models.entities.Category;
 import com.domain.services.CategoryService;
 
